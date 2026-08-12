@@ -17,8 +17,10 @@ Test it by passing the list [10, 20, 30] into total_sum, and print() the result!
 What is your code?
 
 '''
-#total_sum = lambda sum1, sum2, sum3: sum1 + sum2 + sum3
-#print(total_sum(10, 20, 30))
+total_sum = lambda sum1, sum2, sum3: sum1 + sum2 + sum3
+print(total_sum(10, 20, 30))
+
+# or
 
 total_sum = lambda num_list: sum(num_list)
-print(total_sum(10, 20, 30))
+print(total_sum([10, 20, 30]))
