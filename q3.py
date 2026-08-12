@@ -15,5 +15,5 @@ What is your code?
 
 '''
 
-get_max = lambda a, b : "a" if a > b else "b"
+get_max = lambda a, b : a if a > b else b
 print(get_max(15, 25))
