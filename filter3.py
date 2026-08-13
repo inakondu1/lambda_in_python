@@ -22,3 +22,12 @@ What is your code?
 
 number = list(filter(lambda x:  x % 2 == 0, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] ))
 print(number)
+'''
+
+Spot on! Your code runs cleanly and outputs [2, 4, 6, 8, 10].
+What You Have Mastered
+
+    You know how to use modulo % 2 == 0 inside a lambda to test for divisibility.
+
+    You can filter numerical datasets based on arithmetic conditions.
+'''
