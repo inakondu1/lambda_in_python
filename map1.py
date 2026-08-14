@@ -22,5 +22,8 @@ What is your code?
 
 names = ["ina", "alice", "bob"]
 
-name = list(map(lambda name: name.upper(), names))
+name = list(map(lambda name: name[:-1] + name[-1:].upper(), names))
 print(name)
+#capitalized_last = list(map(lambda name: name[:-1] + name[-1:].upper(), names))
+#print(capitalized_last)
+# Output: ['inA', 'alicE', 'boB']
