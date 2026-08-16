@@ -30,5 +30,5 @@ date_name = list(map(lambda step: step + 5, step_step ))
 print(date_name)
 
 
-scores = [45, 80, 62, 30, 95]
+
 
